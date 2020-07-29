@@ -1,16 +1,25 @@
 {
   "name": "cypress-typescript-seed",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "test",
+    "cypress:run": "cypress run",
     "cypress:open": "cypress open"
   },
-  "devDependencies": {
-    "@cypress/webpack-preprocessor": "^3.0.1",
-    "cypress": "^3.4.1",
-    "ts-loader": "^6.0.4",
-    "typescript": "^3.6.2",
-    "webpack": "^4.39.3"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatthewYKnowles/cypress-typescript-seed.git"
   },
-  "dependencies": {}
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatthewYKnowles/cypress-typescript-seed/issues"
+  },
+  "homepage": "https://github.com/MatthewYKnowles/cypress-typescript-seed#readme",
+  "dependencies": {
+    "cypress": "^4.11.0",
+    "typescript": "^3.9.7"
+  }
 }
